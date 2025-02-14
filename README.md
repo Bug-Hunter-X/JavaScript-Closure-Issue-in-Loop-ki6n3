@@ -1,0 +1,3 @@
+# JavaScript Closure Issue in Loop
+
+This repository demonstrates a common closure-related bug in JavaScript loops using `setTimeout`. The problem arises because the `setTimeout` callback function references the variable `i` which is updated after the loop is finished.  The solution demonstrates how to avoid this issue by creating a closure within the loop using an immediately invoked function expression (IIFE).
